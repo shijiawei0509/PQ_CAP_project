@@ -1,0 +1,562 @@
+[
+  {
+    "id": "openrouter:deepseek/deepseek-chat",
+    "baseTtftMs": 1436.0792000000001,
+    "basePricePerMillion": 0.20020000000000002,
+    "eta": 3.996503496503496,
+    "normalCapacity": 24000,
+    "hardCapacity": 40000,
+    "quality": {
+      "coding": 0.7685,
+      "math": 0.893,
+      "reasoning": 0.7685,
+      "writing": 0.7685,
+      "translation": 0.7685,
+      "general-qa": 0.644
+    }
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-chat-v3-0324",
+    "baseTtftMs": 6689.8022,
+    "basePricePerMillion": 0.27,
+    "eta": 4.148148148148148,
+    "normalCapacity": 24000,
+    "hardCapacity": 36000,
+    "quality": {
+      "coding": 0.812,
+      "math": 0.812,
+      "reasoning": 0.812,
+      "writing": 0.812,
+      "translation": 0.812,
+      "general-qa": 0.812
+    }
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-r1",
+    "baseTtftMs": 33050.004199999996,
+    "basePricePerMillion": 0.7,
+    "eta": 3.5714285714285716,
+    "normalCapacity": 28000,
+    "hardCapacity": 38000,
+    "quality": {
+      "coding": 0.7775,
+      "math": 0.7775,
+      "reasoning": 0.715,
+      "writing": 0.7775,
+      "translation": 0.7775,
+      "general-qa": 0.84
+    }
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-r1-0528",
+    "baseTtftMs": 50166.7858,
+    "basePricePerMillion": 0.5,
+    "eta": 4.300000000000001,
+    "normalCapacity": 24000,
+    "hardCapacity": 36000,
+    "quality": {
+      "coding": 0.85,
+      "math": 0.85,
+      "reasoning": 0.85,
+      "writing": 0.85,
+      "translation": 0.85,
+      "general-qa": 0.85
+    }
+  },
+  {
+    "id": "openrouter:deepseek/deepseek-v3.2",
+    "baseTtftMs": 983.111800000006,
+    "basePricePerMillion": 0.26899999999999996,
+    "eta": 1.4869888475836432,
+    "normalCapacity": 24000,
+    "hardCapacity": 36000,
+    "quality": {
+      "coding": 0.4172,
+      "math": 0.8913,
+      "reasoning": 0.6336,
+      "writing": 0.6428,
+      "translation": 0.6428,
+      "general-qa": 0.85
+    }
+  },
+  {
+    "id": "openrouter:google/gemma-3-27b-it",
+    "baseTtftMs": 757.9136999999973,
+    "basePricePerMillion": 0.09999999999999999,
+    "eta": 3,
+    "normalCapacity": 24000,
+    "hardCapacity": 45000,
+    "quality": {
+      "coding": 0.1138,
+      "math": 0.1138,
+      "reasoning": 0.1138,
+      "writing": 0.1138,
+      "translation": 0.1138,
+      "general-qa": 0.1138
+    }
+  },
+  {
+    "id": "openrouter:meta-llama/llama-3.1-8b-instruct",
+    "baseTtftMs": 445.6125000000029,
+    "basePricePerMillion": 0.049999999999999996,
+    "eta": 1.6,
+    "normalCapacity": 52000,
+    "hardCapacity": 73000,
+    "quality": {
+      "coding": 0.544,
+      "math": 0.845,
+      "reasoning": 0.304,
+      "writing": 0.544,
+      "translation": 0.544,
+      "general-qa": 0.483
+    }
+  },
+  {
+    "id": "openrouter:meta-llama/llama-4-maverick",
+    "baseTtftMs": 1691.573199999999,
+    "basePricePerMillion": 0.19999999999999998,
+    "eta": 4,
+    "normalCapacity": 30000,
+    "hardCapacity": 51000,
+    "quality": {
+      "coding": 0.0524,
+      "math": 0.0524,
+      "reasoning": 0.0524,
+      "writing": 0.0524,
+      "translation": 0.0524,
+      "general-qa": 0.0524
+    }
+  },
+  {
+    "id": "openrouter:minimax/minimax-m2",
+    "baseTtftMs": 4028.7319999999963,
+    "basePricePerMillion": 0.255,
+    "eta": 4,
+    "normalCapacity": 24000,
+    "hardCapacity": 36000,
+    "quality": {
+      "coding": 0.497,
+      "math": 0.4848,
+      "reasoning": 0.125,
+      "writing": 0.4848,
+      "translation": 0.4848,
+      "general-qa": 0.82
+    }
+  },
+  {
+    "id": "openrouter:minimax/minimax-m2.1",
+    "baseTtftMs": 2352.9092999999993,
+    "basePricePerMillion": 0.3,
+    "eta": 4,
+    "normalCapacity": 25000,
+    "hardCapacity": 36000,
+    "quality": {
+      "coding": 0.4667,
+      "math": 0.5359,
+      "reasoning": 0.46755,
+      "writing": 0.5359,
+      "translation": 0.5359,
+      "general-qa": 0.88
+    }
+  },
+  {
+    "id": "openrouter:minimax/minimax-m2.5",
+    "baseTtftMs": 2061.8776999999973,
+    "basePricePerMillion": 0.15,
+    "eta": 6,
+    "normalCapacity": 91000,
+    "hardCapacity": 126000,
+    "quality": {
+      "coding": 0.656,
+      "math": 0.5895,
+      "reasoning": 0.523,
+      "writing": 0.5895,
+      "translation": 0.5895,
+      "general-qa": 0.5895
+    }
+  },
+  {
+    "id": "openrouter:mistralai/mistral-small-2603",
+    "baseTtftMs": 560.6419999999998,
+    "basePricePerMillion": 0.15,
+    "eta": 4,
+    "normalCapacity": 47000,
+    "hardCapacity": 74000,
+    "quality": {
+      "coding": 0.712,
+      "math": 0.712,
+      "reasoning": 0.712,
+      "writing": 0.712,
+      "translation": 0.712,
+      "general-qa": 0.712
+    }
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k2",
+    "baseTtftMs": 1530.9804000000004,
+    "basePricePerMillion": 0.5700000000000001,
+    "eta": 4.035087719298245,
+    "normalCapacity": 24000,
+    "hardCapacity": 44000,
+    "quality": {
+      "coding": 0.27735,
+      "math": 0.2773,
+      "reasoning": 0.2773,
+      "writing": 0.2773,
+      "translation": 0.2773,
+      "general-qa": 0.2773
+    }
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k2-0905",
+    "baseTtftMs": 1139.154800000004,
+    "basePricePerMillion": 0.6,
+    "eta": 4.166666666666667,
+    "normalCapacity": 34000,
+    "hardCapacity": 68000,
+    "quality": {
+      "coding": 0.6668,
+      "math": 0.6668,
+      "reasoning": 0.6668,
+      "writing": 0.6668,
+      "translation": 0.6668,
+      "general-qa": 0.6668
+    }
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k2-thinking",
+    "baseTtftMs": 16148.504999999997,
+    "basePricePerMillion": 0.6,
+    "eta": 4.166666666666667,
+    "normalCapacity": 55000,
+    "hardCapacity": 109000,
+    "quality": {
+      "coding": 0.535,
+      "math": 0.6,
+      "reasoning": 0.542,
+      "writing": 0.6,
+      "translation": 0.6,
+      "general-qa": 0.846
+    }
+  },
+  {
+    "id": "openrouter:moonshotai/kimi-k2.5",
+    "baseTtftMs": 17217.64959999999,
+    "basePricePerMillion": 0.5700000000000001,
+    "eta": 4.999999999999999,
+    "normalCapacity": 34000,
+    "hardCapacity": 54000,
+    "quality": {
+      "coding": 0.549,
+      "math": 0.91475,
+      "reasoning": 0.689,
+      "writing": 0.7157,
+      "translation": 0.7157,
+      "general-qa": 0.871
+    }
+  },
+  {
+    "id": "openrouter:nvidia/nemotron-3-nano-30b-a3b",
+    "baseTtftMs": 4055.8278999999893,
+    "basePricePerMillion": 0.049999999999999996,
+    "eta": 4,
+    "normalCapacity": 74000,
+    "hardCapacity": 92000,
+    "quality": {
+      "coding": 0.469,
+      "math": 0.469,
+      "reasoning": 0.155,
+      "writing": 0.469,
+      "translation": 0.469,
+      "general-qa": 0.783
+    }
+  },
+  {
+    "id": "openrouter:openai/gpt-oss-120b",
+    "baseTtftMs": 4708.7497,
+    "basePricePerMillion": 0.037,
+    "eta": 4.594594594594595,
+    "normalCapacity": 291000,
+    "hardCapacity": 582000,
+    "quality": {
+      "coding": 0.3205,
+      "math": 0.341,
+      "reasoning": 0.3615,
+      "writing": 0.341,
+      "translation": 0.341,
+      "general-qa": 0.341
+    }
+  },
+  {
+    "id": "openrouter:openai/gpt-oss-20b",
+    "baseTtftMs": 2085.8175000000047,
+    "basePricePerMillion": 0.03,
+    "eta": 4.333333333333334,
+    "normalCapacity": 99000,
+    "hardCapacity": 198000,
+    "quality": {
+      "coding": 0.374,
+      "math": 0.328,
+      "reasoning": 0.305,
+      "writing": 0.328,
+      "translation": 0.328,
+      "general-qa": 0.328
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3-235b-a22b",
+    "baseTtftMs": 328.67540000000736,
+    "basePricePerMillion": 0.45499999999999996,
+    "eta": 4,
+    "normalCapacity": 24000,
+    "hardCapacity": 36000,
+    "quality": {
+      "coding": 0.2141,
+      "math": 0.2141,
+      "reasoning": 0.2141,
+      "writing": 0.2141,
+      "translation": 0.2141,
+      "general-qa": 0.2141
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3-235b-a22b-thinking-2507",
+    "baseTtftMs": 3592.0339000000095,
+    "basePricePerMillion": 0.14950000000000002,
+    "eta": 10,
+    "normalCapacity": 31000,
+    "hardCapacity": 40000,
+    "quality": {
+      "coding": 0.844,
+      "math": 0.844,
+      "reasoning": 0.844,
+      "writing": 0.844,
+      "translation": 0.844,
+      "general-qa": 0.844
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3-30b-a3b-thinking-2507",
+    "baseTtftMs": 2836.082300000009,
+    "basePricePerMillion": 0.13,
+    "eta": 12,
+    "normalCapacity": 70000,
+    "hardCapacity": 84000,
+    "quality": {
+      "coding": 0.8315,
+      "math": 0.83145,
+      "reasoning": 0.8315,
+      "writing": 0.8315,
+      "translation": 0.8315,
+      "general-qa": 0.8315
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3-coder",
+    "baseTtftMs": 1380.1013000000094,
+    "basePricePerMillion": 0.3,
+    "eta": 3.3333333333333335,
+    "normalCapacity": 45000,
+    "hardCapacity": 62000,
+    "quality": {
+      "coding": 0.313,
+      "math": 0.4692,
+      "reasoning": 0.7816,
+      "writing": 0.4692,
+      "translation": 0.4692,
+      "general-qa": 0.4692
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3-coder-next",
+    "baseTtftMs": 524.6967000000004,
+    "basePricePerMillion": 0.11,
+    "eta": 7.2727272727272725,
+    "normalCapacity": 36000,
+    "hardCapacity": 62000,
+    "quality": {
+      "coding": 0.503667,
+      "math": 0.5037,
+      "reasoning": 0.5037,
+      "writing": 0.5037,
+      "translation": 0.5037,
+      "general-qa": 0.5037
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3-next-80b-a3b-instruct",
+    "baseTtftMs": 442.08739999998943,
+    "basePricePerMillion": 0.09999999999999999,
+    "eta": 11.000000000000002,
+    "normalCapacity": 38000,
+    "hardCapacity": 61000,
+    "quality": {
+      "coding": 0.806,
+      "math": 0.806,
+      "reasoning": 0.806,
+      "writing": 0.806,
+      "translation": 0.806,
+      "general-qa": 0.806
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3.5-122b-a10b",
+    "baseTtftMs": 3164.066399999996,
+    "basePricePerMillion": 0.26,
+    "eta": 8,
+    "normalCapacity": 41000,
+    "hardCapacity": 59000,
+    "quality": {
+      "coding": 0.607,
+      "math": 0.64,
+      "reasoning": 0.5595,
+      "writing": 0.64,
+      "translation": 0.64,
+      "general-qa": 0.867
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3.5-27b",
+    "baseTtftMs": 4457.108699999997,
+    "basePricePerMillion": 0.26,
+    "eta": 10,
+    "normalCapacity": 24000,
+    "hardCapacity": 36000,
+    "quality": {
+      "coding": 0.57,
+      "math": 0.85945,
+      "reasoning": 0.549,
+      "writing": 0.6883,
+      "translation": 0.6883,
+      "general-qa": 0.861
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3.5-35b-a3b",
+    "baseTtftMs": 2894.223499999993,
+    "basePricePerMillion": 0.14,
+    "eta": 7.142857142857142,
+    "normalCapacity": 98000,
+    "hardCapacity": 118000,
+    "quality": {
+      "coding": 0.5485,
+      "math": 0.87575,
+      "reasoning": 0.533,
+      "writing": 0.6811,
+      "translation": 0.6811,
+      "general-qa": 0.853
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3.5-397b-a17b",
+    "baseTtftMs": 11493.3652,
+    "basePricePerMillion": 0.39,
+    "eta": 5.999999999999999,
+    "normalCapacity": 24000,
+    "hardCapacity": 41000,
+    "quality": {
+      "coding": 0.6445,
+      "math": 0.90605,
+      "reasoning": 0.5855,
+      "writing": 0.7357,
+      "translation": 0.7357,
+      "general-qa": 0.878
+    }
+  },
+  {
+    "id": "openrouter:qwen/qwen3.5-9b",
+    "baseTtftMs": 5312.043399999995,
+    "basePricePerMillion": 0.09999999999999999,
+    "eta": 1.5,
+    "normalCapacity": 25000,
+    "hardCapacity": 50000,
+    "quality": {
+      "coding": 0.8198,
+      "math": 0.81855,
+      "reasoning": 0.817,
+      "writing": 0.8198,
+      "translation": 0.8198,
+      "general-qa": 0.825
+    }
+  },
+  {
+    "id": "openrouter:stepfun/step-3.5-flash",
+    "baseTtftMs": 4317.039000000019,
+    "basePricePerMillion": 0.09999999999999999,
+    "eta": 3,
+    "normalCapacity": 24000,
+    "hardCapacity": 36000,
+    "quality": {
+      "coding": 0.627,
+      "math": 0.91515,
+      "reasoning": 0.533,
+      "writing": 0.7135,
+      "translation": 0.7135,
+      "general-qa": 0.844
+    }
+  },
+  {
+    "id": "openrouter:z-ai/glm-4.6",
+    "baseTtftMs": 28822.9534,
+    "basePricePerMillion": 0.5,
+    "eta": 4,
+    "normalCapacity": 24000,
+    "hardCapacity": 41000,
+    "quality": {
+      "coding": 0.17085,
+      "math": 0.1709,
+      "reasoning": 0.1709,
+      "writing": 0.1709,
+      "translation": 0.1709,
+      "general-qa": 0.1709
+    }
+  },
+  {
+    "id": "openrouter:z-ai/glm-4.7",
+    "baseTtftMs": 38354.09959999999,
+    "basePricePerMillion": 0.39999999999999997,
+    "eta": 4.375,
+    "normalCapacity": 126000,
+    "hardCapacity": 252000,
+    "quality": {
+      "coding": 0.536,
+      "math": 0.6415,
+      "reasoning": 0.6447,
+      "writing": 0.6415,
+      "translation": 0.6415,
+      "general-qa": 0.843
+    }
+  },
+  {
+    "id": "openrouter:z-ai/glm-4.7-flash",
+    "baseTtftMs": 6531.310899999982,
+    "basePricePerMillion": 0.060500000000000005,
+    "eta": 6.611570247933884,
+    "normalCapacity": 24000,
+    "hardCapacity": 39000,
+    "quality": {
+      "coding": 0.592,
+      "math": 0.496,
+      "reasoning": 0.448,
+      "writing": 0.496,
+      "translation": 0.496,
+      "general-qa": 0.496
+    }
+  },
+  {
+    "id": "openrouter:z-ai/glm-5",
+    "baseTtftMs": 50025.657999999996,
+    "basePricePerMillion": 0.95,
+    "eta": 3.3157894736842106,
+    "normalCapacity": 46000,
+    "hardCapacity": 62000,
+    "quality": {
+      "coding": 0.626,
+      "math": 0.91095,
+      "reasoning": 0.5825,
+      "writing": 0.7065,
+      "translation": 0.7065,
+      "general-qa": 0.7065
+    }
+  }
+]

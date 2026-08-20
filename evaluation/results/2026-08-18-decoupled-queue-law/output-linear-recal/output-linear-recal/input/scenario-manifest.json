@@ -1,0 +1,32 @@
+{
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89
+  ],
+  "requestCount": 2000,
+  "methods": [
+    "ours",
+    "best-single",
+    "cheapest-eligible",
+    "irt-router-style",
+    "mixllm-style",
+    "openrouter-performance-style",
+    "least-loaded-eligible"
+  ],
+  "lambda0": 0.0210091210317798,
+  "s2Multiplier": 1.5,
+  "s3Burst": {
+    "startFraction": 0.4,
+    "endFraction": 0.6,
+    "taskTypes": [
+      "coding",
+      "math"
+    ],
+    "multiplier": 3
+  },
+  "requestTimeoutMs": 300000
+}

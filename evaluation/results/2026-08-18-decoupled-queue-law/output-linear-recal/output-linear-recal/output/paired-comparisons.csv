@@ -1,0 +1,10 @@
+scenario,metric,passed,comparator,pairedMean,pairedCiLow,pairedCiHigh
+S1,nonCongestedRate,true,least-loaded-eligible,0.0020000000000000018,-0.0016504675691997777,0.005650467569199781
+S1,p95QueueWaitMs,true,least-loaded-eligible,0,0,0
+S1,completionRate,true,cheapest-eligible,0,0,0
+S2,nonCongestedRate,true,least-loaded-eligible,0.003916666666666661,-0.0031107658260488714,0.010944099159382194
+S2,p95QueueWaitMs,true,least-loaded-eligible,-1396.3808519675597,-4985.892107031985,2193.130403096865
+S2,completionRate,true,cheapest-eligible,0,0,0
+S3,nonCongestedRate,true,least-loaded-eligible,0.0017500000000000109,-0.0011383321070561122,0.004638332107056134
+S3,p95QueueWaitMs,true,least-loaded-eligible,0,0,0
+S3,completionRate,true,cheapest-eligible,0,0,0

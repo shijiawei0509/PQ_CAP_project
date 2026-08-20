@@ -1,0 +1,148 @@
+{
+  "experiment": "quality-first-threshold-queue",
+  "designPath": "C:\\Users\\sjw78\\Desktop\\design_price(2)(1)\\design_price(2)\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-08-18-decoupled-queue-law\\output-linear\\DESIGN.md",
+  "sourceInputs": {
+    "qualityCsv": {
+      "path": "C:\\Users\\sjw78\\Desktop\\design_price(2)(1)\\design_price(2)\\design_price\\23.router (2)\\23.router\\LLM_performance_data_2026-07-18\\openrouter\\openrouter_openevals_35_models_2026-07-18.csv",
+      "sha256": "96acc0305b375c0eb038ac6ac0004446b626073900f81af557c57d0b14d311dc"
+    },
+    "capacityCsv": {
+      "path": "C:\\Users\\sjw78\\Desktop\\design_price(2)(1)\\design_price(2)\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-20-openrouter-35-real-latency\\openrouter-35-real-latency.csv",
+      "sha256": "10aca927140b674ec6fb8625db7d86312d144b4e13de457fccb2a583f9d0ab2a"
+    },
+    "taskSnapshot": {
+      "path": "C:\\Users\\sjw78\\Desktop\\design_price(2)(1)\\design_price(2)\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-21-35-model-openrouter-heterogeneous-capacity\\input\\simulation-tasks.json",
+      "sha256": "e882f189b549d937fe85ef3bdddf018eda6f884f21e018a9c790027f8e918b5f"
+    }
+  },
+  "frozen": {
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71,
+      89
+    ],
+    "requestCount": 2000,
+    "methods": [
+      "ours",
+      "best-single",
+      "cheapest-eligible",
+      "irt-router-style",
+      "mixllm-style",
+      "openrouter-performance-style",
+      "least-loaded-eligible"
+    ],
+    "qualityEpsilon": 0.02,
+    "queueLaw": "linear",
+    "queueFormula": "4*baseTtftMs*x",
+    "routerOrder": [
+      "non-congestion",
+      "queue",
+      "base-ttft",
+      "post-gini"
+    ]
+  },
+  "mechanism": {
+    "supported": true,
+    "checks": [
+      {
+        "scenario": "S1",
+        "metric": "nonCongestedRate",
+        "passed": true,
+        "comparator": "least-loaded-eligible",
+        "pairedMean": 0.0020000000000000018,
+        "pairedCiLow": -0.0016504675691997777,
+        "pairedCiHigh": 0.005650467569199781
+      },
+      {
+        "scenario": "S1",
+        "metric": "p95QueueWaitMs",
+        "passed": true,
+        "comparator": "least-loaded-eligible",
+        "pairedMean": 0,
+        "pairedCiLow": 0,
+        "pairedCiHigh": 0
+      },
+      {
+        "scenario": "S1",
+        "metric": "completionRate",
+        "passed": true,
+        "comparator": "cheapest-eligible",
+        "pairedMean": 0,
+        "pairedCiLow": 0,
+        "pairedCiHigh": 0
+      },
+      {
+        "scenario": "S2",
+        "metric": "nonCongestedRate",
+        "passed": true,
+        "comparator": "least-loaded-eligible",
+        "pairedMean": 0.003916666666666661,
+        "pairedCiLow": -0.0031107658260488714,
+        "pairedCiHigh": 0.010944099159382194
+      },
+      {
+        "scenario": "S2",
+        "metric": "p95QueueWaitMs",
+        "passed": true,
+        "comparator": "least-loaded-eligible",
+        "pairedMean": -1396.3808519675597,
+        "pairedCiLow": -4985.892107031985,
+        "pairedCiHigh": 2193.130403096865
+      },
+      {
+        "scenario": "S2",
+        "metric": "completionRate",
+        "passed": true,
+        "comparator": "cheapest-eligible",
+        "pairedMean": 0,
+        "pairedCiLow": 0,
+        "pairedCiHigh": 0
+      },
+      {
+        "scenario": "S3",
+        "metric": "nonCongestedRate",
+        "passed": true,
+        "comparator": "least-loaded-eligible",
+        "pairedMean": 0.0017500000000000109,
+        "pairedCiLow": -0.0011383321070561122,
+        "pairedCiHigh": 0.004638332107056134
+      },
+      {
+        "scenario": "S3",
+        "metric": "p95QueueWaitMs",
+        "passed": true,
+        "comparator": "least-loaded-eligible",
+        "pairedMean": 0,
+        "pairedCiLow": 0,
+        "pairedCiHigh": 0
+      },
+      {
+        "scenario": "S3",
+        "metric": "completionRate",
+        "passed": true,
+        "comparator": "cheapest-eligible",
+        "pairedMean": 0,
+        "pairedCiLow": 0,
+        "pairedCiHigh": 0
+      }
+    ]
+  },
+  "artifacts": {
+    "input/load-assignments.json": "8e3b878bf22160604f9e1d1522d343d187ed822b67394020432a342b9a95108b",
+    "input/model-snapshot.json": "9f9c3592a3b2343ef50ff986c431156521d8a3313307f961d3e8f89942446e24",
+    "input/quality-thresholds.json": "2d4196393b6c3afa8e59cd96f95acc0675c7732b3b4bd50fb5ce691cf023c4f9",
+    "input/scenario-manifest.json": "226c7814af8e696a5ac27de06fc0258106bc08a215ceb427837858b75979f94c",
+    "input/task-snapshot.json": "03450012d2e3883ffb4aa0702a0831cbd45795e161d76015b9c4ba99e209d3c9",
+    "output/aggregate.csv": "711692c2b5a08316ca37b3529ad993df61a47ff01f5e570787e82394c259a4a7",
+    "output/calibration.json": "23fe52746e3099d445eeb93dbd2cc9e814c0183a210e797c0bf1b4429331b93a",
+    "output/load-events.csv.gz": "1054fa5d814870ede291c405577224826eaa9d519b9cf5e562f20d664a77ea6e",
+    "output/paired-comparisons.csv": "0abbf5c7b7b4c5c140b719e1e82e495f526b4621fbda1892855afdf530b080ba",
+    "output/per-request.csv.gz": "72aab6b72982bc8da28489c092eb487589feb04ad7915ab24c6c98617ea589f0",
+    "output/per-seed.csv": "036438bb660e2ff560e1a2193a7094dd73c1424e3633aa023b7084d01986e6da",
+    "output/REPORT.md": "a2015d2e0020509497f0deeba6b3b3565ac5d853e648aa5213afa8098415683f"
+  },
+  "code": {}
+}
