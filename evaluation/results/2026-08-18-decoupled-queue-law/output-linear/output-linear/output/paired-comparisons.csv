@@ -1,0 +1,10 @@
+scenario,metric,passed,comparator,pairedMean,pairedCiLow,pairedCiHigh
+S1,nonCongestedRate,true,least-loaded-eligible,0,0,0
+S1,p95QueueWaitMs,true,least-loaded-eligible,0,0,0
+S1,completionRate,true,cheapest-eligible,0,0,0
+S2,nonCongestedRate,true,least-loaded-eligible,0,0,0
+S2,p95QueueWaitMs,true,least-loaded-eligible,0,0,0
+S2,completionRate,true,cheapest-eligible,0,0,0
+S3,nonCongestedRate,true,least-loaded-eligible,0,0,0
+S3,p95QueueWaitMs,true,least-loaded-eligible,0,0,0
+S3,completionRate,true,cheapest-eligible,0,0,0

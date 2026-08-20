@@ -1,0 +1,128 @@
+[
+  {
+    "taskId": "router-v1-coding-easy-002",
+    "taskType": "coding",
+    "difficulty": "easy",
+    "promptTokens": 184,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-coding-medium-003",
+    "taskType": "coding",
+    "difficulty": "medium",
+    "promptTokens": 566,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-coding-hard-001",
+    "taskType": "coding",
+    "difficulty": "hard",
+    "promptTokens": 356,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-math-easy-002",
+    "taskType": "math",
+    "difficulty": "easy",
+    "promptTokens": 55,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-math-medium-001",
+    "taskType": "math",
+    "difficulty": "medium",
+    "promptTokens": 199,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-math-hard-003",
+    "taskType": "math",
+    "difficulty": "hard",
+    "promptTokens": 1581,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-reasoning-easy-001",
+    "taskType": "reasoning",
+    "difficulty": "easy",
+    "promptTokens": 319,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-reasoning-medium-002",
+    "taskType": "reasoning",
+    "difficulty": "medium",
+    "promptTokens": 316,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-reasoning-hard-002",
+    "taskType": "reasoning",
+    "difficulty": "hard",
+    "promptTokens": 394,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-writing-easy-002",
+    "taskType": "writing",
+    "difficulty": "easy",
+    "promptTokens": 158,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-writing-medium-003",
+    "taskType": "writing",
+    "difficulty": "medium",
+    "promptTokens": 72,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-writing-hard-002",
+    "taskType": "writing",
+    "difficulty": "hard",
+    "promptTokens": 104,
+    "maxOutputTokens": 1024
+  },
+  {
+    "taskId": "router-v1-translation-easy-003",
+    "taskType": "translation",
+    "difficulty": "easy",
+    "promptTokens": 67,
+    "maxOutputTokens": 512
+  },
+  {
+    "taskId": "router-v1-translation-medium-003",
+    "taskType": "translation",
+    "difficulty": "medium",
+    "promptTokens": 66,
+    "maxOutputTokens": 512
+  },
+  {
+    "taskId": "router-v1-translation-hard-003",
+    "taskType": "translation",
+    "difficulty": "hard",
+    "promptTokens": 127,
+    "maxOutputTokens": 512
+  },
+  {
+    "taskId": "router-v1-general-qa-easy-001",
+    "taskType": "general-qa",
+    "difficulty": "easy",
+    "promptTokens": 116,
+    "maxOutputTokens": 512
+  },
+  {
+    "taskId": "router-v1-general-qa-medium-001",
+    "taskType": "general-qa",
+    "difficulty": "medium",
+    "promptTokens": 125,
+    "maxOutputTokens": 512
+  },
+  {
+    "taskId": "router-v1-general-qa-hard-002",
+    "taskType": "general-qa",
+    "difficulty": "hard",
+    "promptTokens": 120,
+    "maxOutputTokens": 512
+  }
+]
