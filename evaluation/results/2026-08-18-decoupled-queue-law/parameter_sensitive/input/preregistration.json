@@ -1,0 +1,365 @@
+{
+  "approvedDesign": "../DESIGN.md",
+  "pilotSha256": "553bc7f145d98dfdffb1022f804e57a22ce954f754912b5e6f61eca9cdc2088b",
+  "formalSeeds": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89
+  ],
+  "requestCountPerRun": 2000,
+  "sloDeadlineMs": 120000,
+  "requestTimeoutMs": 300000,
+  "specifications": [
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-0.5",
+      "scenario": "regular",
+      "deltaScale": 0.5,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.1,
+        "medium": 0.05,
+        "hard": 0.025
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-0.5",
+      "scenario": "soft-congestion",
+      "deltaScale": 0.5,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.1,
+        "medium": 0.05,
+        "hard": 0.025
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-0.75",
+      "scenario": "regular",
+      "deltaScale": 0.75,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.15000000000000002,
+        "medium": 0.07500000000000001,
+        "hard": 0.037500000000000006
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-0.75",
+      "scenario": "soft-congestion",
+      "deltaScale": 0.75,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.15000000000000002,
+        "medium": 0.07500000000000001,
+        "hard": 0.037500000000000006
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-1",
+      "scenario": "regular",
+      "deltaScale": 1,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-1",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-1.25",
+      "scenario": "regular",
+      "deltaScale": 1.25,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.25,
+        "medium": 0.125,
+        "hard": 0.0625
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-1.25",
+      "scenario": "soft-congestion",
+      "deltaScale": 1.25,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.25,
+        "medium": 0.125,
+        "hard": 0.0625
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-1.5",
+      "scenario": "regular",
+      "deltaScale": 1.5,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.30000000000000004,
+        "medium": 0.15000000000000002,
+        "hard": 0.07500000000000001
+      }
+    },
+    {
+      "family": "delta-scan",
+      "parameterId": "delta-1.5",
+      "scenario": "soft-congestion",
+      "deltaScale": 1.5,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.30000000000000004,
+        "medium": 0.15000000000000002,
+        "hard": 0.07500000000000001
+      }
+    },
+    {
+      "family": "difficulty-control",
+      "parameterId": "aware",
+      "scenario": "regular",
+      "deltaScale": 1,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "difficulty-control",
+      "parameterId": "blind-0.10",
+      "scenario": "regular",
+      "deltaScale": null,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.1,
+        "medium": 0.1,
+        "hard": 0.1
+      }
+    },
+    {
+      "family": "difficulty-control",
+      "parameterId": "aware",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "difficulty-control",
+      "parameterId": "blind-0.10",
+      "scenario": "soft-congestion",
+      "deltaScale": null,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.1,
+        "medium": 0.1,
+        "hard": 0.1
+      }
+    },
+    {
+      "family": "kappa-scan",
+      "parameterId": "kappa-0",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 0,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "kappa-scan",
+      "parameterId": "kappa-0.25",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 0.25,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "kappa-scan",
+      "parameterId": "kappa-0.5",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 0.5,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "kappa-scan",
+      "parameterId": "kappa-1",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "kappa-scan",
+      "parameterId": "kappa-2",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 2,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "kappa-scan",
+      "parameterId": "kappa-4",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 4,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-0.75-kappa-0.5",
+      "scenario": "soft-congestion",
+      "deltaScale": 0.75,
+      "kappa": 0.5,
+      "tolerances": {
+        "easy": 0.15000000000000002,
+        "medium": 0.07500000000000001,
+        "hard": 0.037500000000000006
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-0.75-kappa-1",
+      "scenario": "soft-congestion",
+      "deltaScale": 0.75,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.15000000000000002,
+        "medium": 0.07500000000000001,
+        "hard": 0.037500000000000006
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-0.75-kappa-2",
+      "scenario": "soft-congestion",
+      "deltaScale": 0.75,
+      "kappa": 2,
+      "tolerances": {
+        "easy": 0.15000000000000002,
+        "medium": 0.07500000000000001,
+        "hard": 0.037500000000000006
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-1-kappa-0.5",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 0.5,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-1-kappa-1",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-1-kappa-2",
+      "scenario": "soft-congestion",
+      "deltaScale": 1,
+      "kappa": 2,
+      "tolerances": {
+        "easy": 0.2,
+        "medium": 0.1,
+        "hard": 0.05
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-1.25-kappa-0.5",
+      "scenario": "soft-congestion",
+      "deltaScale": 1.25,
+      "kappa": 0.5,
+      "tolerances": {
+        "easy": 0.25,
+        "medium": 0.125,
+        "hard": 0.0625
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-1.25-kappa-1",
+      "scenario": "soft-congestion",
+      "deltaScale": 1.25,
+      "kappa": 1,
+      "tolerances": {
+        "easy": 0.25,
+        "medium": 0.125,
+        "hard": 0.0625
+      }
+    },
+    {
+      "family": "interaction",
+      "parameterId": "delta-1.25-kappa-2",
+      "scenario": "soft-congestion",
+      "deltaScale": 1.25,
+      "kappa": 2,
+      "tolerances": {
+        "easy": 0.25,
+        "medium": 0.125,
+        "hard": 0.0625
+      }
+    }
+  ]
+}

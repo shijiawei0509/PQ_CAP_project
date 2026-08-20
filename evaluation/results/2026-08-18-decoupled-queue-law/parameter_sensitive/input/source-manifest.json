@@ -1,0 +1,14 @@
+{
+  "qualityCsv": {
+    "path": "C:\\Users\\sjw78\\Desktop\\design_price(2)(1)\\design_price(2)\\design_price\\23.router (2)\\23.router\\LLM_performance_data_2026-07-18\\openrouter\\openrouter_openevals_35_models_2026-07-18.csv",
+    "sha256": "96acc0305b375c0eb038ac6ac0004446b626073900f81af557c57d0b14d311dc"
+  },
+  "capacityCsv": {
+    "path": "C:\\Users\\sjw78\\Desktop\\design_price(2)(1)\\design_price(2)\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-20-openrouter-35-real-latency\\openrouter-35-real-latency.csv",
+    "sha256": "10aca927140b674ec6fb8625db7d86312d144b4e13de457fccb2a583f9d0ab2a"
+  },
+  "taskSnapshot": {
+    "path": "C:\\Users\\sjw78\\Desktop\\design_price(2)(1)\\design_price(2)\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-21-35-model-openrouter-heterogeneous-capacity\\input\\simulation-tasks.json",
+    "sha256": "e882f189b549d937fe85ef3bdddf018eda6f884f21e018a9c790027f8e918b5f"
+  }
+}
