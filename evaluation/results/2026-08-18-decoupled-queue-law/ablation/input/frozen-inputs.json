@@ -1,0 +1,37 @@
+[
+  {
+    "id": "model-snapshot",
+    "sourcePath": "C:\\Users\\sjw78\\Desktop\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-24-quality-first-threshold-queue\\input\\model-snapshot.json",
+    "sourceSha256": "9f9c3592a3b2343ef50ff986c431156521d8a3313307f961d3e8f89942446e24",
+    "snapshotPath": "input/model-snapshot.json",
+    "snapshotSha256": "9f9c3592a3b2343ef50ff986c431156521d8a3313307f961d3e8f89942446e24"
+  },
+  {
+    "id": "task-snapshot",
+    "sourcePath": "C:\\Users\\sjw78\\Desktop\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-24-quality-first-threshold-queue\\input\\task-snapshot.json",
+    "sourceSha256": "03450012d2e3883ffb4aa0702a0831cbd45795e161d76015b9c4ba99e209d3c9",
+    "snapshotPath": "input/task-snapshot.json",
+    "snapshotSha256": "03450012d2e3883ffb4aa0702a0831cbd45795e161d76015b9c4ba99e209d3c9"
+  },
+  {
+    "id": "quality-thresholds",
+    "sourcePath": "C:\\Users\\sjw78\\Desktop\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-24-quality-first-threshold-queue\\input\\quality-thresholds.json",
+    "sourceSha256": "2d4196393b6c3afa8e59cd96f95acc0675c7732b3b4bd50fb5ce691cf023c4f9",
+    "snapshotPath": "input/quality-thresholds.json",
+    "snapshotSha256": "2d4196393b6c3afa8e59cd96f95acc0675c7732b3b4bd50fb5ce691cf023c4f9"
+  },
+  {
+    "id": "load-assignments",
+    "sourcePath": "C:\\Users\\sjw78\\Desktop\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-24-quality-first-threshold-queue\\input\\load-assignments.json",
+    "sourceSha256": "8e3b878bf22160604f9e1d1522d343d187ed822b67394020432a342b9a95108b",
+    "snapshotPath": "input/load-assignments.json",
+    "snapshotSha256": "8e3b878bf22160604f9e1d1522d343d187ed822b67394020432a342b9a95108b"
+  },
+  {
+    "id": "scenario-manifest",
+    "sourcePath": "C:\\Users\\sjw78\\Desktop\\design_price\\23.router (2)\\23.router\\evaluation\\results\\2026-07-24-quality-first-threshold-queue\\input\\scenario-manifest.json",
+    "sourceSha256": "824ce4853844678c5ac3aaf2052bc26020b8824a6b6eb814e126c1d8213947b4",
+    "snapshotPath": "input/source-manifest.json",
+    "snapshotSha256": "824ce4853844678c5ac3aaf2052bc26020b8824a6b6eb814e126c1d8213947b4"
+  }
+]

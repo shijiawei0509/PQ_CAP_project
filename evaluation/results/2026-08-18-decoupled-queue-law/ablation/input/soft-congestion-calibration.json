@@ -1,0 +1,47 @@
+{
+  "router": "balanced-reference",
+  "interval": [
+    0.00007094048571307212,
+    0.004540191085636616
+  ],
+  "selectedArrivalRate": 0.00007094048571307212,
+  "observations": [
+    {
+      "arrivalRate": 0.00007094048571307212,
+      "completionRate": 0.9968333333333333,
+      "capacityFailureRate": 0.003166666666666666
+    },
+    {
+      "arrivalRate": 0.00014188097142614424,
+      "completionRate": 0.9934999999999999,
+      "capacityFailureRate": 0.0065
+    },
+    {
+      "arrivalRate": 0.0002837619428522885,
+      "completionRate": 0.9888333333333335,
+      "capacityFailureRate": 0.011166666666666667
+    },
+    {
+      "arrivalRate": 0.000567523885704577,
+      "completionRate": 0.9731666666666666,
+      "capacityFailureRate": 0.026833333333333334
+    },
+    {
+      "arrivalRate": 0.001135047771409154,
+      "completionRate": 0.8964166666666666,
+      "capacityFailureRate": 0.10358333333333332
+    },
+    {
+      "arrivalRate": 0.002270095542818308,
+      "completionRate": 0.7813333333333334,
+      "capacityFailureRate": 0.21866666666666668
+    },
+    {
+      "arrivalRate": 0.004540191085636616,
+      "completionRate": 0.6584166666666667,
+      "capacityFailureRate": 0.3415833333333333
+    }
+  ],
+  "formalMethodReads": 0,
+  "objective": "avoid-universal-hard-cap-failure"
+}
