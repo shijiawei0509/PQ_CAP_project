@@ -1,0 +1,11 @@
+{
+  "rate": 0.000567523885704577,
+  "lower": 0.000567523885704577,
+  "upper": 0.000567523885704577,
+  "iterations": 0,
+  "observation": {
+    "completedCount": 2000,
+    "capacityRejectedCount": 0,
+    "mixedStateShare": 1
+  }
+}
