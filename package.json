@@ -1,0 +1,52 @@
+{
+  "name": "pq-cap-router-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "dev:web": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "benchmark:router:real": "tsx scripts/run-router-benchmark.ts",
+    "diagnose:router:json": "tsx scripts/diagnose-router-json.ts",
+    "data:import:openrouter": "node scripts/import-openrouter-data.mjs",
+    "data:validate:openrouter": "node scripts/validate-openrouter-data.mjs",
+    "data:build:runtime-models": "tsx scripts/build-runtime-models.ts",
+    "evaluation:simulate": "tsx evaluation/code/run-simulation.ts",
+    "evaluation:collect:real": "tsx evaluation/code/collect-real-traces.ts",
+    "evaluation:run:four": "tsx evaluation/code/run-four-experiments.ts",
+    "evaluation:optimize": "tsx evaluation/code/run-optimized-experiments.ts",
+    "evaluation:run:four-model-price": "tsx evaluation/code/run-four-model-price-experiments.ts",
+    "evaluation:run:35-model-openrouter": "tsx evaluation/code/run-35-model-openrouter-experiments.ts",
+    "evaluation:run:35-model-openrouter-heterogeneous": "tsx evaluation/code/run-35-model-openrouter-experiments.ts",
+    "evaluation:export:experiment1-requests": "tsx evaluation/code/export-experiment1-request-results.ts",
+    "evaluation:run:quality-tolerance": "tsx evaluation/code/run-quality-tolerance-experiment.ts",
+    "evaluation:validate:quality-tolerance": "tsx evaluation/code/validate-quality-tolerance-experiment.ts",
+    "evaluation:measure:openrouter-latency": "tsx evaluation/code/run-openrouter-real-latency.ts",
+    "evaluation:measure:openrouter-retry-failures": "tsx evaluation/code/run-openrouter-failed-models-retry.ts",
+    "evaluation:calibrate:openrouter-capacity": "tsx evaluation/code/run-openrouter-capacity-calibration.ts",
+    "verify:providers": "tsx scripts/verify-providers.ts",
+    "verify:zhipu-models": "tsx scripts/verify-zhipu-models.ts",
+    "verify:qwen-platform": "tsx scripts/verify-qwen-platform.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.14",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5",
+    "vitest": "^3.2.4"
+  }
+}
