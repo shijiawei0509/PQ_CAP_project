@@ -1,4 +1,4 @@
-# PQ-CAP: Congestion-Aware Pricing and Routing for LLM Aggregators
+# Steering LLM Demand with Congestion-Aware Pricing and Preference-Aware Routing
 
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -75,7 +75,7 @@ These values are simulation and routing parameters. The capacity estimates used 
 |           |-- input/           # Frozen model, task, threshold, and scenario inputs
 |           |-- output*/         # Stored results for queue-law variants
 |           |-- tests/           # Experiment-specific tests
-|           `-- figures+code/
+|           `-- code/
 |               |-- quality_first_user/
 |               |-- price_first_user/
 |               |-- ablation/
